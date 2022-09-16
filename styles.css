@@ -31,8 +31,8 @@ img {
 
 img.frontpage {
   display: block;
-  height: 2021px;
-  width: 3791px;
+  height: 300px;
+  width: 300px;
   margin: -8px -8px;
   border-style: outset;
   border-color: #6E6825;
@@ -72,8 +72,8 @@ img.frontpage {
   }
 
   img.frontpage {
-    height: 941px;
-    width: 1871px;
+    height: 200px;
+    width: 200px;
     border-width: 1em;
   }
 
@@ -95,8 +95,8 @@ img.frontpage {
   }
 
   img.frontpage {
-    height: 761px;
-    width: 1391px;
+    height: 100px;
+    width: 100px;
   }
 
   img {
@@ -126,8 +126,8 @@ img.frontpage {
   }
 
   img.frontpage {
-    height: 629px;
-    width: 1317px;
+    height: 100px;
+    width: 100px;
   }
 
    .flexbox {
@@ -147,8 +147,8 @@ img.frontpage {
   }
 
   img.frontpage {
-    height: 581px;
-    width:1231px;
+    height: 100px;
+    width: 100px;
   }
 
   img {
