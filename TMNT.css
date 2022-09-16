@@ -1,0 +1,17 @@
+body {
+  background-color: #131213;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img.flexbox {
+  display: block;
+  height: 75%;
+  width: 75%;
+  margin-bottom: 8px;
+  margin-inline: auto;
+}
