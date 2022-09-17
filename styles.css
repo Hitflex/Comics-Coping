@@ -30,10 +30,8 @@ img {
 img.frontpage {
   display: block;
   height: 300px;
-  width: 300px;
+  width: 1000px;
   margin: -8px -8px;
-  border-style: outset;
-  border-color: #6E6825;
 }
 
 .flex {
@@ -71,8 +69,7 @@ img.frontpage {
 
   img.frontpage {
     height: 200px;
-    width: 200px;
-    border-width: 1em;
+    width: 750px;
   }
 
   p {
@@ -94,7 +91,7 @@ img.frontpage {
 
   img.frontpage {
     height: 100px;
-    width: 100px;
+    width: 650px;
   }
 
   img {
@@ -125,7 +122,7 @@ img.frontpage {
 
   img.frontpage {
     height: 100px;
-    width: 100px;
+    width: 500px;
   }
 
    .flexbox {
@@ -146,7 +143,7 @@ img.frontpage {
 
   img.frontpage {
     height: 100px;
-    width: 100px;
+    width: 450px;
   }
 
   img {
