@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "American Pride";
+  src: url("American Pride.ttf");
+}
+
+@font-face {
+  font-family: Unispace;
+  src: url("unispace bd.ttf");
+}
+
+body {
+  height: 3910px;
+  width: 3791px;
+  background-image: url(bg.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+p {
+  color: #070707;
+  font-size: 2em;
+  font-family: Unispace;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  height: 665px;
+  width: 625px;
+}
+
+img.frontpage {
+  display: block;
+  height: 700px;
+  width: 1000px;
+  margin: -8px -8px;
+}
+
+.flex {
+  display: flex;
+  width:75%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox {
+  height: 700px;
+  width: 22%;
+  background-color: rgba(255, 255, 255, .60);
+  border: 3px #45453A solid;
+  border-radius: 3px;
+  margin-inline: 8em;
+  margin-block: 5em;
+}
+
+@media screen and (max-width: 1920px) {
+  body {
+    height: 2064px;
+    width: 1871px;
+  }
+
+  img {
+    height: 365px;
+    width: 309px;
+  }
+
+  img.frontpage {
+    height: 400px;
+    width: 750px;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .flex {
+    margin-top: 1em;
+  }
+
+  .flexbox {
+   height: 380px;
+   margin-inline: 4em;
+   margin-block: 3em;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    height: 1800px;
+    width: 1391px;
+  }
+
+  img.frontpage {
+    height: 300px;
+    width: 650px;
+  }
+
+  img {
+    height: 315px;
+    width: 209px;
+  }
+
+  .flexbox {
+    height: 350px;
+    width: 20%;
+    margin-block: 2em;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  body {
+    height: 1552px;
+    width: 1317px;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  img {
+    height: 265px;
+    width: 217px;
+  }
+
+  img.frontpage {
+    height: 200px;
+    width: 450px;
+  }
+
+  .flex {
+    margin-top: 4em;
+  } 
+
+  .flexbox {
+    height: 300px;
+    width: 22%;
+    background-color: rgba(255, 255, 255, .60);
+    border: 3px #45453A solid;
+    border-radius: 3px;
+    margin-inline: 3em;
+    margin-block: 2em;
+  }
+
+@media screen and (max-width: 1280px) {
+  body {
+    height: 1570px;
+    width: 1231px;
+  }
+
+  img.frontpage {
+    height: 200px;
+    width: 400px;
+  }
+
+  img {
+    width: 203px;
+  }
+
+}
+}
